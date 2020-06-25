@@ -5,7 +5,7 @@ const toDoList = document.querySelector(".js-toDoList");
 const TODOS_LS = "toDos";
 
 let toDos = [];
-
+let a;
 
 function deleteToDo(event) {
     const btn = event.target;
